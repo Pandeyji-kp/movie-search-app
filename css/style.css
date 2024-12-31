@@ -1,0 +1,78 @@
+body{
+    background-color: #ccc;
+}
+    .main{
+        width: 1100px;
+        margin: 20px auto;
+        /* border: 1px solid; */
+        /* padding: 10px; */
+    }
+    .row-1 h1{
+        text-align: center;
+    }
+    .row-1 input{
+        width: 98.5%;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .row-2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+    }
+    .box{
+        flex-basis: 20%;
+        background-color: wheat;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 1%;
+        /* margin-right: 2%; */
+    }
+    .box img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .box:hover{
+        background-color: rgb(224, 177, 120);
+    }
+    .pagination{
+        width: 500px;
+        margin: 20px auto;
+    }
+    .pagination ul{
+        display: flex;
+    }
+    .pagination ul li{
+        list-style: none;
+        padding: 10px;
+        background-color: blueviolet;
+        color: white;
+        font-weight: bold;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .pagination ul li:hover{
+        background-color: azure;
+        color: black;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+
+    }
+
+    .btn{
+        margin: 10px 15px;
+        background-color: black;
+        color: white;
+        flex-basis: 150px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 0px;
+        padding: 15px;
+        border-radius: 15px;
+    }
